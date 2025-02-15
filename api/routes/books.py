@@ -78,8 +78,4 @@ async def get_single_book(book_id: int) -> Book:
             detail="Book not found"
         )
     return book
-    # book = db.get_book(book_id)
-    # return JSONResponse(
-    #     status_code=status.HTTP_200_OK,
-    #     content=book.model_dump(),
-    # )
+
